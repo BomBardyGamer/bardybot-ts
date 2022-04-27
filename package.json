@@ -1,0 +1,30 @@
+{
+  "name": "discord-test-bot",
+  "version": "1.0.0",
+  "description": "A testing bot written in TypeScript using Discord.JS",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BomBardyGamer/discord-test-bot.git"
+  },
+  "author": "Callum Seabrook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BomBardyGamer/discord-test-bot/issues"
+  },
+  "homepage": "https://github.com/BomBardyGamer/discord-test-bot#readme",
+  "dependencies": {
+    "@discordx/importer": "^1.1.2",
+    "discord.js": "^13.6.0",
+    "discordx": "^9.5.3",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.27",
+    "ts-node": "^8.0.3",
+    "typescript": "^4.6.3"
+  }
+}
